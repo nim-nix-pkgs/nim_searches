@@ -11,7 +11,6 @@
   inputs.src-nim_searches-master.ref   = "refs/heads/master";
   inputs.src-nim_searches-master.owner = "nnahito";
   inputs.src-nim_searches-master.repo  = "nim_searched";
-  inputs.src-nim_searches-master.dir   = "";
   inputs.src-nim_searches-master.type  = "github";
   
   outputs = { self, nixpkgs, flakeNimbleLib, ...}@deps:
